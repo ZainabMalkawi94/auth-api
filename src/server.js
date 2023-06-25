@@ -22,6 +22,11 @@ app.use(v1Routes);
 app.use(v2Routes);
 
 
+app.get('/', welcomeHandler);
+function welcomeHandler(req, res) {
+    res.status(200).send('hi from home rout ');
+}
+
 app.use(logger);
 app.use(notFoundHandler);
 app.use(errorHandler);
@@ -33,10 +38,7 @@ app.use(v2Routes);
 app.use('*', notFoundHandler);
 app.use(errorHandler);
 
-app.get('/', welcomeHandler);
-function welcomeHandler(req, res) {
-    res.status(200).send('hi');
-}
+
 
 module.exports = {
   server: app, 
