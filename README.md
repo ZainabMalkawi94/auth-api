@@ -4,8 +4,9 @@
 deployment url : https://authapi2.onrender.com/ 
 
 
-PR: https://github.com/ZainabMalkawi94/auth-api/pull/2
+PR: https://github.com/ZainabMalkawi94/auth-api/pull/3
 
 Testing: 
 ![Fig1](./assest/1.png)
-![Fig1](./assest/2.png)
+![Fig2](./assest/2.png)
+![Fig3](./assest/3.png)
